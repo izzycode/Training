@@ -8,6 +8,23 @@ body{
   overflow-x: hidden;
 }
 
+
+.vertical-align{      /* Custom Vertical Align */
+  position: relative;
+  top: 50%;
+  transform:  translateY(-50%);
+}
+
+::selection{
+  background: #873fb5;
+  color: #fff;
+}
+
+::-moz-selection{
+  background: #873fb5;
+  color: #fff;
+}
+
 strong{
   font-weight: 900;
 }
@@ -60,5 +77,78 @@ hr.icon:after{
 .section-heading hr{
   border-color: #873fb5;
   margin-top: 30px;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
+
+/*-----------------------------------------------------------
+  Header
+------------------------------------------------------------*/
+
+#home{
+  background: url(../images/background.png) fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 600px;
+}
+
+.logo{
+  font-size: 72px;
+  font-weight: 100;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  padding: 0 20px 15px 20px;
+}
+
+#home h3{
+  font-weight: 300;
+  margin: 0;
+}
+
+#home .learn-more{
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+}
+
+.learn-more .fa{
+  position: absolute;
+}
+
+.second-arrow{
+  top: 8px;
+}
+
+.third-arrow{
+  top: 16px;
+}
+
+
+/*-----------------------------------------------------------
+  About
+------------------------------------------------------------*/
+#about{
+  background: url(../images/background2.png) fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 440px;
+}
+
+#about h3{
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+#about h4{
+  font-weight: 300;
+  padding: 0 20%;
+}
+
+
+/*-----------------------------------------------------------
+  Services
+------------------------------------------------------------*/
