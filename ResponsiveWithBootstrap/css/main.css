@@ -152,3 +152,103 @@ hr.icon:after{
 /*-----------------------------------------------------------
   Services
 ------------------------------------------------------------*/
+.service-item{
+  margin-bottom: 40px;
+}
+
+.service-item i{
+  font-size: 48px;
+  float: left;
+  color: #c1c1c1;
+  border-right: 1px solid #873fb5;
+  padding-right:  20px;
+}
+
+.service-title{
+  margin-top: -24px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.service-title h3{
+  color: #111;
+  font-weight: 900;
+}
+
+.setvice-title h4{
+  color: #873fb5;
+  font-weight: 300;
+}
+
+
+/*-----------------------------------------------------------
+  Skills
+------------------------------------------------------------*/
+#skills{
+  background: url(../images/background3.png) fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+#skills h1{
+  font-size: 48px;
+}
+
+#skills h3{
+  font-weight: 300;
+  margin-top: 0;
+}
+
+#skills p{
+  margin: 40px 0;
+}
+
+.button{
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #fff;
+  border-radius: 2px;
+  padding-bottom: 10px;
+}
+
+.button:hover{
+  border-color: #873fb5;
+}
+
+#skills .button:last-child{
+  margin-left: 20px;
+}
+
+.progress{
+  height: 30px;
+  margin-bottom: 30px;
+  opacity: .78;
+  background-color: #000;
+  box-shadow: none;
+}
+
+.progress-bar{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#873fb5+0,d39cd1+100 */
+  background: rgb(135,63,181); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(135,63,181,1) 0%, rgba(211,156,209,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(135,63,181,1) 0%,rgba(211,156,209,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(135,63,181,1) 0%,rgba(211,156,209,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#873fb5', endColorstr='#d39cd1',GradientType=0 ); /* IE6-9 */
+}
+
+.progress-bars h5{
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+
+/*-----------------------------------------------------------
+  Portfolio
+------------------------------------------------------------*/
+
+/*-----------------------------------------------------------
+  Contact
+------------------------------------------------------------*/
