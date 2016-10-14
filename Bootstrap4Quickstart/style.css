@@ -1,0 +1,25 @@
+/*----------------------------------------------------
+GENERAL
+----------------------------------------------------*/
+html,
+body{
+  height: 100%;
+}
+
+/*----------------------------------------------------
+COVER
+----------------------------------------------------*/
+
+#cover{
+  background: #222 url("img/stars.jpg") center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#cover-caption{
+  width: 100%;
+}
