@@ -38,6 +38,9 @@ img {
   margin: 1rem 0 0;
 }
 
+/*----------------------------------------------------
+----------------------------------------------------*/
+
 #stage {
   background: url("img/stage.jpg") center center no-repeat;
   background-size: cover;
@@ -60,4 +63,60 @@ img {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.feature-content {
+  padding: 8rem 0;
+  overflow: hidden;
+}
+
+.feature-content img {
+  margin-bottom: -8rem;
+}
+
+.feature-dark {
+  background: #262f36;
+  color: white;
+}
+
+.feature-dark h2 {
+  color: white;
+}
+
+.feature-alt {
+  background: #f0f0f0;
+}
+
+#feature-4 .feature-content {
+  padding: 0;
+}
+
+#feature-5 img {
+  margin-top: 2rem;
+}
+
+#main-footer {
+  background: #262f36;
+  color: white;
+  padding: 6rem 0;
+  font-size: 0.8rem;
+}
+
+#main-footer h6 {
+  color: #718fa9;
+}
+
+#main-footer a {
+  color: #6c6f73;
+}
+/*----------------------------------------------------
+        MEDIA QUERIES
+----------------------------------------------------*/
+@media screen and ( min-width : 991px ) {
+
+  .feature-content {
+    display: flex;
+    align-items: center;
+  }
+
 }
