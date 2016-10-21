@@ -1,0 +1,103 @@
+// 1 - Load project variables.
+// 2 - Load bootstrap sass files.
+// 3 - Load custom app sass files.
+
+// --------------------------------------------------------
+//  Import in the default bootstrap variables.
+//  Then override bootstrap default with project specific values.
+// --------------------------------------------------------
+
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/variables";
+@import "variables";
+
+
+// --------------------------------------------------------
+// Import required bootstrap sass files needed for this project.
+// Uncomment any bootstrap functionality required for this project.
+// The idea is to keep this as small as possible.
+// --------------------------------------------------------*/
+
+/* --------------------------------------------------------
+   Core mixins
+   -------------------------------------------------------- */
+
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/mixins";
+
+
+
+/* --------------------------------------------------------
+   Reset and dependencies
+   -------------------------------------------------------- */
+
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/normalize";
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/print";
+
+
+
+/* --------------------------------------------------------
+   Core CSS
+   -------------------------------------------------------- */
+
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/reboot";
+// @import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/type";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/images";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/code";
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/grid";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/tables";
+// @import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/forms";
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/buttons";
+
+
+
+/* --------------------------------------------------------
+   Components
+   -------------------------------------------------------- */
+
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/animation";
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/dropdown";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/button-group";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/input-group";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/custom-forms";
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/nav";
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/navbar";
+// @import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/card";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/breadcrumb";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/pagination";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/pager";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/labels";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/jumbotron";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/alert";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/progress";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/media";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/list-group";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/responsive-embed";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/close";
+
+
+/* --------------------------------------------------------
+   Components w/ JavaScript
+   -------------------------------------------------------- */
+
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/modal";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/tooltip";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/popover";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/carousel";
+
+
+
+/* --------------------------------------------------------
+   Utility classes
+   -------------------------------------------------------- */
+
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/utilities";
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/utilities-background";
+//@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/utilities-spacing";
+@import "/Users/Marce/Documents/WebDev/Sources/BootstrapSource/bootstrap/scss/utilities-responsive";
+
+
+
+/* --------------------------------------------------------
+   Custom application specific styles
+   -------------------------------------------------------- */
+
+@import "base";
